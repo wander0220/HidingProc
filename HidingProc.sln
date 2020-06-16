@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HidingProc", "HidingProc\HidingProc.csproj", "{450B8CAE-EED4-48E7-AF43-2855C030DE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450B8CAE-EED4-48E7-AF43-2855C030DE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450B8CAE-EED4-48E7-AF43-2855C030DE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450B8CAE-EED4-48E7-AF43-2855C030DE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450B8CAE-EED4-48E7-AF43-2855C030DE10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD414BE-75DD-407F-86CF-47082FBACFAF}
+	EndGlobalSection
+EndGlobal

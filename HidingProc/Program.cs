@@ -20,6 +20,8 @@ namespace HidingProc
         {
             Child child = new Child();
             Console.WriteLine(child.variable);
+            Console.WriteLine("Child variable : " + child.variable);
+            Console.WriteLine("Parent variable : " + ((Parent)child).variable);
         }
     }
 }

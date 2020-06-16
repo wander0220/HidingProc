@@ -18,8 +18,8 @@ namespace HidingProc
         }
         class Child : Parent
         {
-            public string variable = "shadowing";
-            public void Method()
+            public new string variable = "shadowing";
+            public new void Method()
             {
                 Console.WriteLine("Child!");
             }

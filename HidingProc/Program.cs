@@ -11,10 +11,18 @@ namespace HidingProc
         class Parent
         {
             public int variable = 273;
+            public void Method()
+            {
+                Console.WriteLine("Parent!");
+            }
         }
         class Child : Parent
         {
             public string variable = "shadowing";
+            public void Method()
+            {
+                Console.WriteLine("Child!");
+            }
         }
         static void Main(string[] args)
         {
@@ -22,6 +30,8 @@ namespace HidingProc
             Console.WriteLine(child.variable);
             Console.WriteLine("Child variable : " + child.variable);
             Console.WriteLine("Parent variable : " + ((Parent)child).variable);
+            child.Method();
+            ((Parent)child).Method();
         }
     }
 }
